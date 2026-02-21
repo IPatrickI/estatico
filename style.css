@@ -19,7 +19,7 @@ body {
     color: var(--texto-base);
     overflow-x: hidden;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 10px;
     text-align: left;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .logo-sec-mobile {
     display: none; 
-    height: 450px; 
+    height: 10px; 
     width: auto;
 }
 
@@ -270,14 +270,14 @@ body {
 
 .h1-title {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 14px;
     color: var(--color-primario);
     margin-bottom: 17px;
 }
 
 .h2-subtitle {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     color: var(--color-primario);
     margin-top: 12px;
     margin-bottom: 12px;

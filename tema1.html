@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiSpace - Tema 1: Pruebas de Usabilidad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="img/wiki.png" alt="Wiki Logo" class="logo-wiki">
+            </div>
+            <nav class="right-nav">
+                <a href="index.html" class="nav-item">
+                    <img src="img/inicio_icon.png" alt="" class="nav-top-icon"> Inicio
+                </a>
+                <a href="#" class="nav-item" id="btn-temas">
+                    <img src="img/temas_icon.png" alt="" class="nav-top-icon"> Temas
+                </a>
+                <a href="glosario.html" class="nav-item">
+                    <img src="img/glosario_icon.png" alt="" class="nav-top-icon"> Glosario
+                </a>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Buscar...">
+                    <button class="search-btn">
+                        <img src="img/lupa.png" alt="Buscar" class="lupa-icon">
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <aside class="sidebar-left" id="panel-temas">
+            <h2 class="sidebar-label">MENÚ DE TEMAS</h2>
+            <ul class="nav-list">
+                <li><a href="tema1.html#introduccion">► ¿Qué son las pruebas de usabilidad?</a></li>
+                <li><a href="tema1.html#importancia">► Importancia de las pruebas</a></li>
+                <li><a href="tema2.html#tipos-inicio" class="active">► Tipos de pruebas de usabilidad</a></li>
+                <li><a href="tema3.html#estudio-inicio">► Estudio de usabilidad</a></li>
+            </ul>
+        </aside>
+
+        <main class="content-wrapper">
+            <h1 class="h1-title">Pruebas de usabilidad</h1>
+            
+            <p id="introduccion" class="intro-paragraph">
+                Las pruebas de usabilidad son evaluaciones en las que usuarios reales interactúan con un producto digital, como un sitio web, aplicación o software, con el objetivo de analizar qué tan fácil, eficiente y satisfactoria resulta su experiencia. A través de estas pruebas se identifican obstáculos que dificultan la realización de tareas y el cumplimiento de objetivos dentro de una interfaz.
+            </p>
+
+            <section class="body-text">
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">¿Para qué sirven?</h2>
+                <p>Las pruebas de usabilidad permiten:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px;">
+                    <li>Mejorar la experiencia del usuario.</li>
+                    <li>Verificar que las funciones del producto sean claras e intuitivas.</li>
+                    <li>Reducir errores, confusión y frustración durante el uso.</li>
+                    <li>Optimizar la eficiencia con la que los usuarios realizan tareas.</li>
+                    <li>Tomar decisiones de diseño basadas en la observación de usuarios reales.</li>
+                </ul>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">¿Qué problemas ayudan a detectar?</h2>
+                <p>Mediante estas pruebas es posible identificar:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px;">
+                    <li>Funciones poco intuitivas o difíciles de comprender.</li>
+                    <li>Procesos largos, complejos o innecesarios.</li>
+                    <li>Información difícil de localizar o entender.</li>
+                    <li>Errores recurrentes durante la interacción.</li>
+                    <li>Problemas de navegación y diseño visual que afectan la comprensión del sitio.</li>
+                </ul>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">¿En qué momento del diseño se realizan?</h2>
+                <p>Las pruebas de usabilidad pueden aplicarse en distintas etapas del proceso de diseño:</p>
+                <ul style="margin-left: 20px; margin-bottom: 15px;">
+                    <li>En prototipos tempranos, para evaluar flujos de navegación y estructura antes del desarrollo.</li>
+                    <li>En versiones previas al lanzamiento, para revisar la experiencia completa.</li>
+                    <li>En productos ya en uso, con el fin de detectar oportunidades de mejora continua.</li>
+                </ul>
+
+                <div id="importancia">
+                    <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">
+                        Importancia de las pruebas de usabilidad
+                    </h2>
+                    <p>
+                        Las pruebas de usabilidad son fundamentales en el diseño web, ya que permiten crear productos digitales más claros y funcionales. Su aplicación contribuye a reducir errores, mejorar la satisfacción de los usuarios y optimizar recursos al detectar problemas antes de que el producto sea lanzado o actualizado. Además, fortalecen la relación entre el diseño de la interfaz y la experiencia del usuario, asegurando que el producto no solo sea visualmente atractivo, sino también fácil de utilizar.
+                    </p>
+                </div>
+                
+                <div class="tema-images-footer" style="display: flex; gap: 20px; margin-top: 30px; justify-content: center; padding-bottom: 20px;">
+                    <img src="img/usabilidad_1.jpg" alt="Usuario realizando prueba" style="width: 45%; height: auto; border-radius: 5px; border: 1px solid #ddd;">
+                    <img src="img/usabilidad_2.jpg" alt="Análisis de resultados" style="width: 45%; height: auto; border-radius: 5px; border: 1px solid #ddd;">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <div class="f-col">
+                <h4>Sobre nosotros</h4>
+                <p style="font-size: 9px; line-height: 1.4;">
+                    WikiSpace es una plataforma educativa dedicada a la difusión de conceptos de Diseño Multimedia y Web, enfocada en la usabilidad y la experiencia del usuario.
+                    <br><br>
+                    © 2026 WikiSpace. Todos los derechos reservados.
+                </p>
+            </div>
+            <div class="f-col">
+                <h4>Enlaces útiles</h4>
+                <ul style="list-style: none; padding: 0; font-size: 9px;">
+                    <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/es" target="_blank">Introducción a la Accesibilidad Web</a></li>
+                    <li><a href="https://sidar.org/recursos/articulos/index.php" target="_blank">Recursos del Seminario Sidar</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h4>Contacto</h4>
+                <p style="font-size: 9px; line-height: 1.6;">
+                    soporte@wikispace.edu.mx<br>
+                    info@wikispace.edu.mx
+                </p>
+            </div>
+            <div class="f-col">
+                <h4>Redes sociales</h4>
+                <div class="social-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+                    <img src="img/facebook_icon.png" alt="Facebook" style="width: 20px;">
+                    <img src="img/instagram_icon.png" alt="Instagram" style="width: 20px;">
+                    <img src="img/x_icon.png" alt="X" style="width: 20px;">
+                    <img src="img/youtube_icon.png" alt="YouTube" style="width: 20px;">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom" style="text-align: center; border-top: 1px solid #444; margin-top: 20px; padding-top: 10px;"></div>
+    </footer>
+
+    <script>
+        document.getElementById('btn-temas').addEventListener('click', (e) => { 
+            e.preventDefault(); 
+            document.getElementById('panel-temas').classList.toggle('active'); 
+        });
+    </script>
+</body>
+</html>

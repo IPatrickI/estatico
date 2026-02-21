@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiSpace - Tema 3: Estudio de Usabilidad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo-area">
+                <img src="img/wiki.png" alt="Wiki Logo" class="logo-wiki">
+            </div>
+            <nav class="right-nav">
+                <a href="index.html" class="nav-item">
+                    <img src="img/inicio_icon.png" alt="" class="nav-top-icon"> Inicio
+                </a>
+                <a href="#" class="nav-item" id="btn-temas">
+                    <img src="img/temas_icon.png" alt="" class="nav-top-icon"> Temas
+                </a>
+                <a href="glosario.html" class="nav-item">
+                    <img src="img/glosario_icon.png" alt="" class="nav-top-icon"> Glosario
+                </a>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Buscar...">
+                    <button class="search-btn">
+                        <img src="img/lupa.png" alt="Buscar" class="lupa-icon">
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <aside class="sidebar-left" id="panel-temas">
+            <h2 class="sidebar-label">MENÚ DE TEMAS</h2>
+            <ul class="nav-list">
+                <li><a href="tema1.html#introduccion">► ¿Qué son las pruebas de usabilidad?</a></li>
+                <li><a href="tema1.html#importancia">► Importancia de las pruebas</a></li>
+                <li><a href="tema2.html#tipos-inicio">► Tipos de pruebas de usabilidad</a></li>
+                <li><a href="tema3.html#estudio-inicio" class="active">► Estudio de usabilidad</a></li>
+            </ul>
+        </aside>
+
+        <main class="content-wrapper">
+            <div id="estudio-inicio">
+                <h1 class="h1-title">¿CÓMO SE REALIZA UN ESTUDIO DE USABILIDAD?</h1>
+                <p class="intro-paragraph">
+                    Un estudio de usabilidad sigue una serie de pasos que permiten evaluar de manera sistemática la interacción de los usuarios con un producto digital. Este proceso ayuda a identificar problemas, comprender el comportamiento de los usuarios y proponer mejoras basadas en evidencia.
+                </p>
+            </div>
+
+            <section class="body-text">
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">1. Definición de objetivos</h2>
+                <p>En esta etapa se determina qué se desea evaluar, por ejemplo, la facilidad de uso de una interfaz, la eficiencia de un proceso o el nivel de satisfacción del usuario. Definir objetivos claros permite enfocar el estudio y obtener resultados relevantes.</p>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">2. Selección de usuarios</h2>
+                <p>Consiste en elegir un grupo representativo del público objetivo, considerando aspectos como perfil, experiencia previa y contexto de uso. La selección adecuada de usuarios garantiza que los resultados reflejen situaciones reales.</p>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">3. Diseño de tareas</h2>
+                <p>Se establecen las actividades que los usuarios deberán realizar durante la prueba. Estas tareas deben ser claras y estar relacionadas con acciones reales que el usuario llevaría a cabo dentro del producto.</p>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">4. Observación y registro</h2>
+                <p>Durante la prueba se observa cómo los usuarios interactúan con el producto, registrando errores, dificultades, tiempos de ejecución y comportamientos relevantes. Esta información permite detectar patrones y puntos críticos de la experiencia.</p>
+
+                <h2 class="h2-subtitle" style="font-size: 12px; color: var(--primario); margin: 15px 0 5px;">5. Análisis de resultados</h2>
+                <p>Finalmente, los datos recopilados se analizan para identificar problemas recurrentes y oportunidades de mejora. A partir de este análisis se generan recomendaciones que contribuyen a optimizar la experiencia del usuario y el diseño del producto.</p>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <img src="img/estudio_proceso.jpg" alt="Proceso de estudio de usabilidad" style="width: 85%; max-width: 450px; border-radius: 5px; border: 1px solid #ddd;">
+                </div>
+
+                <div style="margin-top: 30px;">
+                    <p class="body-text">
+                        A continuación se presenta un video que explica los pasos y objetivos que conforman un estudio de usabilidad, reforzando el proceso descrito en este apartado.
+                    </p>
+                    <div class="video-container" style="margin-top: 15px;">
+                        <iframe 
+                            src="https://www.youtube-nocookie.com/embed/hl08IUf_kIA?si=uKWd2YCX2AoRjxnm" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <div class="f-col">
+                <h4>Sobre nosotros</h4>
+                <p style="font-size: 9px; line-height: 1.4;">
+                    WikiSpace es una plataforma educativa dedicada a la difusión de conceptos de Diseño Multimedia y Web, enfocada en la usabilidad y la experiencia del usuario.
+                    <br><br>
+                    © 2026 WikiSpace. Todos los derechos reservados.
+                </p>
+            </div>
+            <div class="f-col">
+                <h4>Enlaces útiles</h4>
+                <ul style="list-style: none; padding: 0; font-size: 9px;">
+                    <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/es" target="_blank">Introducción a la Accesibilidad Web</a></li>
+                    <li><a href="https://sidar.org/recursos/articulos/index.php" target="_blank">Recursos del Seminario Sidar</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h4>Contacto</h4>
+                <p style="font-size: 9px; line-height: 1.6;">
+                    soporte@wikispace.edu.mx<br>
+                    info@wikispace.edu.mx
+                </p>
+            </div>
+            <div class="f-col">
+                <h4>Redes sociales</h4>
+                <div class="social-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+                    <img src="img/facebook_icon.png" alt="Facebook" style="width: 20px;">
+                    <img src="img/instagram_icon.png" alt="Instagram" style="width: 20px;">
+                    <img src="img/x_icon.png" alt="X" style="width: 20px;">
+                    <img src="img/youtube_icon.png" alt="YouTube" style="width: 20px;">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom" style="text-align: center; border-top: 1px solid #444; margin-top: 20px; padding-top: 10px;"></div>
+    </footer>
+
+    <script>
+        document.getElementById('btn-temas').addEventListener('click', (e) => { 
+            e.preventDefault(); 
+            document.getElementById('panel-temas').classList.toggle('active'); 
+        });
+    </script>
+</body>
+</html>

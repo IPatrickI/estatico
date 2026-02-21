@@ -19,7 +19,7 @@ body {
     color: var(--texto-base);
     overflow-x: hidden;
     line-height: 1.2;
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .logo-sec-mobile {
     display: none; 
-    height: 10px; 
+    height: 450px; 
     width: auto;
 }
 
@@ -184,7 +184,7 @@ body {
 
 .hero-image img {
     width: 100%;
-    height: 450px;
+    height: 300px;
     object-fit: cover;
     border-bottom: 3px solid var(--color-primario);
 }
@@ -270,14 +270,14 @@ body {
 
 .h1-title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 17px;
     color: var(--color-primario);
     margin-bottom: 17px;
 }
 
 .h2-subtitle {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     color: var(--color-primario);
     margin-top: 12px;
     margin-bottom: 12px;

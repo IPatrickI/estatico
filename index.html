@@ -151,19 +151,7 @@
         <div class="footer-bottom"></div>
     </footer>
 
-    <script>
-        document.getElementById('btn-temas').addEventListener('click', (e) => { 
-            e.preventDefault(); 
-            const panel = document.getElementById('panel-temas');
-            panel.classList.toggle('active'); 
-        });
-        document.addEventListener('click', (e) => {
-            const panel = document.getElementById('panel-temas');
-            const btn = document.getElementById('btn-temas');
-            if (!panel.contains(e.target) && !btn.contains(e.target)) {
-                panel.classList.remove('active');
-            }
-        });
-    </script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
